@@ -15,6 +15,10 @@ public class AdditionCalculatorTest {
         }
     }
 	
-	
+	 @Test
+	    void testPositiveIntegers() {
+	        AdditionCalculator calculator = new AdditionCalculator();
+	        assertEquals(8, calculator.add(5, 3));
+	    }
 
 }
